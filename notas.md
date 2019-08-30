@@ -24,3 +24,7 @@ ue ejecutando , pero el DOM se deja de ejecutar para ejecutar el script una vez 
 ```
 
 igual que async permite la descarga asincrono del script pero este no se ejecutara hasta que la cargar del DOM se alla ejecutado en su totalidad.
+
+## Herencia
+
+En javascript la herencia se maneja median los prototipos de una variable , estas poseeran un prototipo en el cual javascript buscara metodos y atributo de no ser encontrados en los primeros, e ira bajando al prototipo del prototipo hasta llegar a undefined y retornar que el atributo no fue encontrado.
