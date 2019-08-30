@@ -28,3 +28,9 @@ igual que async permite la descarga asincrono del script pero este no se ejecuta
 ## Herencia
 
 En javascript la herencia se maneja median los prototipos de una variable , estas poseeran un prototipo en el cual javascript buscara metodos y atributo de no ser encontrados en los primeros, e ira bajando al prototipo del prototipo hasta llegar a undefined y retornar que el atributo no fue encontrado.
+
+## Como funciona Javascript
+
+- Explorador de tokens de javascript [Esprima](https://esprima.org/index.html)
+
+- Explorador de AST de javascript [AST Explorer](https://astexplorer.net/)
