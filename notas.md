@@ -34,3 +34,10 @@ En javascript la herencia se maneja median los prototipos de una variable , esta
 - Explorador de tokens de javascript [Esprima](https://esprima.org/index.html)
 
 - Explorador de AST de javascript [AST Explorer](https://astexplorer.net/)
+
+El js Engine V8
+
+- 1 obtiene codigo fuente
+- 2 parsea el codigo a Abstract Syntax Tree (AST)
+- 3 Compila a bytecode y se ejecuta
+- 4 se optimiza a machine code y se reemplaza el codigo base
