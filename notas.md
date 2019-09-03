@@ -41,3 +41,13 @@ El js Engine V8
 - 2 parsea el codigo a Abstract Syntax Tree (AST)
 - 3 Compila a bytecode y se ejecuta
 - 4 se optimiza a machine code y se reemplaza el codigo base
+
+## Event loop
+
+Javascript maneja el eventloop con:
+
+- **Schedule tasks** (Time out) tareas que bajan al Task Queue una vez cumplido el tiempo de espera
+- **Microtask Queue** (Promesa) bajan al Stack antes que el Task queue
+- **Task Queue**, lista de operaciones por hacer
+- **Stack** (Operaciones que bajan para ser ejecutadas)
+- El **eventloop** se encarga de mover tareas del **Task Queue** y **Microtask Queue** al **Stack**
