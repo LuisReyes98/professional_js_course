@@ -82,3 +82,7 @@ async function getMovie(id) {
     return data;
 }
 ```
+
+## Service workers
+
+[Service workers](https://developers.google.com/web/fundamentals/primers/service-workers/?hl=es) permiten que el servidor trabaje offline
