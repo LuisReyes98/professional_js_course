@@ -16,7 +16,7 @@ MediaPlayer.prototype._initPlugins = function () {
             this.media.muted = value;
         }
     };
-    
+
     this.plugins.forEach(plugin => {
         plugin.run(player);
     });
