@@ -2,17 +2,17 @@
   "name": "platzi_js_profesional",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html ejercicios/index.html ejercicios/**/*.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "scripts":{
-    "start": "live-server"
-  },
   "devDependencies": {
-    "live-server": "^1.2.1"
-  }
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.7.4"
+  },
+  "browserlists": [
+    "last 1 Chrome version"
+  ]
 }

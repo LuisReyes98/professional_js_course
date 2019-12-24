@@ -36,12 +36,11 @@ async function precache () {
 async function cachedResponse(request) {
     const cache = await caches.open(VERSION);
     const response = await cache.match(request);
-    return response || fetch(request); //si no esta en cache busca en la red
+    return response || fetch(request);
 }
 
-// actualizar el cache
 async function updateCache(request) {
     const cache = await caches.open(VERSION);
     const response = await fetch(request);
-    return cache.put(request, response)
+    return cache.put(request, response);
 }
