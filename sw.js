@@ -39,9 +39,9 @@ async function cachedResponse(request) {
     return response || fetch(request); //si no esta en cache busca en la red
 }
 
+// actualizar el cache
 async function updateCache(request) {
     const cache = await caches.open(VERSION);
     const response = await fetch(request);
-    cache.put(request, response)
-
+    return cache.put(request, response)
 }
