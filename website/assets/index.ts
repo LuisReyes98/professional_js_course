@@ -1,8 +1,8 @@
 // Module scope
-import MediaPlayer from './MediaPlayer';
-import AutoPlay from './plugins/AutoPlay';
-import AutoPause from './plugins/AutoPause';
-import Ads from './plugins/Ads';
+import MediaPlayer from '@luis_reyesh/mediaplayer';
+import AutoPlay from '@luis_reyesh/mediaplayer/lib/plugins/AutoPlay';
+import AutoPause from '@luis_reyesh/mediaplayer/lib/plugins/AutoPause';
+import Ads from '@luis_reyesh/mediaplayer/lib/plugins/Ads';
 
 const video = document.querySelector("#video");
 const playButton: HTMLElement = document.querySelector("#play");

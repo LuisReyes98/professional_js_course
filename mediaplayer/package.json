@@ -1,0 +1,16 @@
+{
+  "name": "@luis_reyesh/mediaplayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/MediaPlayer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc src/**/*.ts src/plugins/**/*.ts --outDir lib"
+  },
+  "keywords": [],
+  "author": "Luis Reyes",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  }
+}

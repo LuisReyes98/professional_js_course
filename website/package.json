@@ -14,5 +14,8 @@
   },
   "browserlists": [
     "last 1 Chrome version"
-  ]
+  ],
+  "dependencies": {
+    "@luis_reyesh/mediaplayer": "^1.0.0"
+  }
 }
