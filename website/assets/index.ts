@@ -1,5 +1,5 @@
 // Module scope
-import MediaPlayer, { foo } from './MediaPlayer';
+import MediaPlayer from './MediaPlayer';
 import AutoPlay from './plugins/AutoPlay';
 import AutoPause from './plugins/AutoPause';
 import Ads from './plugins/Ads';

@@ -52,4 +52,4 @@ class MediaPlayer {
 
 export default MediaPlayer;
 
-export const foo = 'bar';
+// export const foo = 'bar';
